@@ -20,7 +20,7 @@ try
     
     $formats = $ytd->getFormats();
     
-    echo $formats[0]->url
+    echo $formats[0]->url;
 } 
 catch (Exception $e)
 {
