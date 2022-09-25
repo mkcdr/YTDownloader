@@ -13,17 +13,14 @@ and the author of this script is not responsible for anyone who use this script 
 ## Usage
 
 ```php
-try 
-{
+try {
     $ytd = new YTDownloader();
     $ytd->loadInfoFromUrl($url);
     
-    $formats = $ytd->getFormats();
-    
-    echo $formats[0]->url;
-} 
-catch (Exception $e)
-{
+    if ($formats = $ytd->getFormats()) {
+        echo $formats[0]->url;
+    } 
+} catch (Exception $e) {
     echo $e->getMessage();
 }
 ```
