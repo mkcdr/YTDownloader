@@ -1,6 +1,6 @@
 # YTDownloader
 
-Single pure PHP class for downloading Youtube videos.
+Single pure PHP class Youtube downloader.
 
 ## :warning: Legal Disclaimer
 
