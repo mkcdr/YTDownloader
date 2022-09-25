@@ -2,7 +2,7 @@
 
 Single pure PHP class for downloading Youtube videos.
 
-## :warning Legal Disclaimer
+## :warning: Legal Disclaimer
 
 Ofcourse it's illegal to download copyrighted things from Youtube since it's against their policy and terms of service, 
 so this script is intended for personal use only and by using this script you are responsible for any copyright violations. 
