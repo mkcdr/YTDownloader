@@ -1,8 +1,8 @@
 <?php
 
-header('Content-Type: application/json');
-
 require_once __DIR__ . '/YTDownloader.php';
+
+header('Content-Type: application/json');
 
 $url = isset($_GET['url']) ? $_GET['url'] : null;
 
