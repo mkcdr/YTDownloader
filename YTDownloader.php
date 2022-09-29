@@ -81,7 +81,7 @@ class YTDownloader
             throw new InvalidArgumentException('Invalid YouTube URL provided.');
         }
 
-        $content = $this->get_data($url);
+        $content = $this->getData($url);
 
         if (!preg_match(self::YTInitialPlayerResponseRegex, $content, $matches))
         {
@@ -114,7 +114,7 @@ class YTDownloader
      * @param string $url
      * @return string
      */
-    private function get_data($url)
+    private function getData($url)
     {
         if (function_exists('curl_init')) {
             $ch = curl_init($url);
